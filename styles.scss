@@ -122,6 +122,35 @@ section {
     box-shadow: 0 2px 0 1px var(--blue-100-2);
 }
 
+.snippets {
+    h2 {
+        font-size: 1.7rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    p {
+        font-size: 1.03rem;
+        line-height: 1.5;
+        margin-bottom: 4.1875rem;
+    }
+}
+
+.flex-box-photo {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+
+    h3 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.03rem;
+        line-height: 1.6;
+    }
+}
+
 footer {
     background-color: var(--gray-500-2);
     color: var(--gray-700);
