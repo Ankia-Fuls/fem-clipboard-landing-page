@@ -2,7 +2,9 @@
 
 :root {
     --green-500: hsl(171, 66%, 44%);
+    --green-500-2: rgb(48, 150, 129);
     --blue-100: hsl(233, 100%, 69%);
+    --blue-100-2: rgb(79, 98, 218);
     --gray-700: hsl(210, 10%, 33%);
     --gray-500: hsl(201, 11%, 66%);
     --gray-500-2: hsla(201, 11%, 66%, 0.1);
@@ -53,20 +55,71 @@ h1,
 h2,
 h3 {
     color: var(--gray-700);
+    font-weight: 600;
 }
 
 p {
     color: var(--gray-500);
+    font-weight: 400;
 }
 
 main {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 12.125rem;
-    padding-top: 7.625rem;
-    padding-bottom: 10.625rem;
+    gap: 10.4375rem;
+    padding: 7.625rem 1.875rem 10.625rem;
+}
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    img {
+        width: 7.8125rem;
+        aspect-ratio: 1 / 1;
+        margin-bottom: 4.375rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    p {
+        font-size: 1.02rem;
+        margin-bottom: 3.125rem;
+    }
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4375rem;
+    width: 100%;
+
+    button {
+        height: 3.4375rem;
+        border-radius: 1.875rem;
+        color: white;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+    }
+}
+
+.download-ios {
+    background-color: var(--green-500);
+    box-shadow: 0 2px 0 1px var(--green-500-2);
+}
+
+.download-mac {
+    background-color: var(--blue-100);
+    box-shadow: 0 2px 0 1px var(--blue-100-2);
 }
 
 footer {
