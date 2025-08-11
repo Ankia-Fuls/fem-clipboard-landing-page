@@ -162,6 +162,21 @@ p {
   margin-top: 4.1875rem;
 }
 
+.supercharge-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4375rem;
+  margin-top: 5.625rem;
+}
+.supercharge-examples h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 2.8125rem;
+}
+.supercharge-examples p {
+  font-size: 1rem;
+}
+
 footer {
   background-color: var(--gray-500-2);
   color: var(--gray-700);
