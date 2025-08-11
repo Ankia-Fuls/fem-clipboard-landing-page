@@ -192,6 +192,13 @@ p {
     }
 }
 
+.logos {
+    margin-bottom: 2.4375rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.3125rem;
+}
+
 footer {
     background-color: var(--gray-500-2);
     color: var(--gray-700);
