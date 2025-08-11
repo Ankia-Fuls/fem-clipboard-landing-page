@@ -29,6 +29,7 @@
   font-size: 0.6875rem;
   text-align: center;
   color: var(--gray-700);
+  background-color: var(--gray-500-2);
 }
 
 .attribution a {
@@ -204,7 +205,7 @@ p {
   margin-bottom: 2.8125rem;
 }
 
-footer {
+footer .main-footer {
   background-color: var(--gray-500-2);
   color: var(--gray-700);
   display: flex;
@@ -213,12 +214,12 @@ footer {
   align-items: center;
   padding-top: 3.125rem;
 }
-footer ul {
+footer .main-footer ul {
   list-style: none;
   text-align: center;
   font-size: 1.125rem;
 }
-footer li {
+footer .main-footer li {
   margin-bottom: 1.875rem;
 }
 
@@ -231,4 +232,48 @@ footer a:hover {
   display: flex;
   flex-direction: row;
   gap: 2.5rem;
+}
+
+@media only screen and (min-width: 671px) {
+  body {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+  .download-buttons {
+    flex-direction: row;
+    gap: 0.9375rem;
+    justify-content: center;
+  }
+  .download-buttons button {
+    width: 14.375rem;
+  }
+  .flex-box-photo {
+    flex-direction: row;
+    align-items: center;
+  }
+  .flex-box-photo img {
+    max-width: 50%;
+    position: relative;
+    left: -4.375rem;
+  }
+  .flex-box-photo h3,
+  .flex-box-photo p {
+    text-align: left;
+  }
+  .flex-box-photo .flex-photo-text {
+    margin-inline-start: 6.4%;
+  }
+  .supercharge-examples {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+  .logos {
+    flex-direction: row;
+    gap: 4.3125rem;
+    justify-content: center;
+  }
+  footer .main-footer {
+    flex-direction: row;
+    gap: 2.8125rem;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
