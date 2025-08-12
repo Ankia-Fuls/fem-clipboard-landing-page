@@ -4,9 +4,11 @@
     --green-500: hsl(171, 66%, 44%);
     --green-500-2: rgb(48, 150, 129);
     --green-500-3: hsla(171, 66%, 44%, 0.3);
+    --green-500-4: rgb(87, 184, 167);
     --blue-100: hsl(233, 100%, 69%);
     --blue-100-2: rgb(79, 98, 218);
     --blue-100-3: hsla(233, 100%, 69%, 0.3);
+    --blue-100-4: rgb(126, 135, 226);
     --gray-700: hsl(210, 10%, 33%);
     --gray-500: hsl(201, 11%, 66%);
     --gray-500-2: hsla(201, 11%, 66%, 0.1);
@@ -136,6 +138,7 @@ section {
 
 .download-ios:active {
     background-color: var(--green-active);
+    box-shadow: 0 2px 0 1px var(--green-500-4), 0 15px 15px var(--green-500-3);
 }
 
 .download-mac {
@@ -145,6 +148,7 @@ section {
 
 .download-mac:active {
     background-color: var(--blue-active);
+    box-shadow: 0 2px 0 1px var(--blue-100-4), 0 15px 15px var(--gray-500-2);
 }
 
 h2 {
