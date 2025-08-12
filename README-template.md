@@ -89,6 +89,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Hex to filter](https://codepen.io/sosuke/pen/Pjoqqp) - This was a great tool to see what filter can be applied to an image to color it to a certain hex code.
+- [Grid Auto Flow](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow) - This helped me understand how to change the direction with which the grid fills in the HTML elements, which I used to organize the flow of the footer links.
 
 ## Author
 
