@@ -67,6 +67,10 @@ p {
   font-weight: 400;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 main {
   text-align: center;
   display: flex;
@@ -235,6 +239,9 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 671px) {
+  .capitalize {
+    text-transform: none;
+  }
   body {
     background-image: url(../images/bg-header-desktop.png);
   }
@@ -295,9 +302,24 @@ footer a:hover {
   .flex-box-photo .flex-photo-text {
     margin-inline-start: 3%;
   }
+  .supercharge {
+    width: 76.6%;
+    margin: 0 auto;
+  }
   .supercharge-examples {
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 0;
+  }
+  .supercharge-examples div {
+    width: 33.33%;
+  }
+  .supercharge-examples p {
+    width: 95%;
+  }
+  .supercharge-examples h3 {
+    font-size: 1.45rem;
+    margin-bottom: 1rem;
+    margin-top: 2.8125rem;
   }
   .logos {
     flex-direction: row;
