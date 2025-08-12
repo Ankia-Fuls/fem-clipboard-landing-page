@@ -204,9 +204,15 @@ p {
 
 .logos {
   margin-bottom: 2.4375rem;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  justify-items: center;
   gap: 4.3125rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.625rem 2.6875rem 1.875rem 3rem 1.5625rem;
+}
+.logos img {
+  height: 100%;
 }
 
 .available p {
@@ -352,9 +358,13 @@ footer a:hover {
     grid-area: text3;
   }
   .logos {
-    flex-direction: row;
-    gap: 4.3125rem;
-    justify-content: center;
+    gap: 5.875rem;
+    grid-template-columns: 166px 137px 160px 136px 126px;
+    grid-template-rows: auto;
+  }
+  .logos img {
+    height: auto;
+    width: 100%;
   }
   footer .main-footer {
     flex-direction: row;
