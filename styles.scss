@@ -260,6 +260,37 @@ footer a:hover {
         background-image: url(../images/bg-header-desktop.png);
     }
 
+    main {
+        padding: 7.625rem 0 10.625rem;
+    }
+
+    .head {
+        img {
+            margin-bottom: 4rem;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+            width: 50%;
+        }
+    }
+
+    h2 {
+        font-size: 2.1rem;
+        width: 50%;
+        margin: 0 auto 1.5625rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+        width: 50%;
+        margin: 0 auto;
+    }
+
     .download-buttons {
         flex-direction: row;
         gap: 0.9375rem;
@@ -273,11 +304,12 @@ footer a:hover {
     .flex-box-photo {
         flex-direction: row;
         align-items: center;
+        gap: 0;
 
         img {
-            max-width: 50%;
+            max-width: 60%;
             position: relative;
-            left: -4.375rem;
+            left: -4.86%;
         }
 
         h3,
@@ -285,8 +317,19 @@ footer a:hover {
             text-align: left;
         }
 
+        h3 {
+            font-size: 1.45rem;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            margin: 0 0 3.75rem;
+            font-size: 1rem;
+            width: 60%;
+        }
+
         .flex-photo-text {
-            margin-inline-start: 6.4%;
+            margin-inline-start: 3%;
         }
     }
 
