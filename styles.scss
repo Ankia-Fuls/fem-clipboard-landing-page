@@ -197,19 +197,24 @@ p {
 }
 
 .supercharge-examples {
-    display: flex;
-    flex-direction: column;
-    gap: 3.4375rem;
-    margin-top: 5.625rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 9);
+    text-align: center;
+    gap: 1rem;
+    margin-top: 3.1875rem;
 
     h3 {
         font-size: 1.4rem;
-        margin-bottom: 1rem;
-        margin-top: 2.8125rem;
+        margin-top: 1.5rem;
     }
 
     p {
         font-size: 1rem;
+    }
+
+    img {
+        margin: 2.4375rem auto 0;
     }
 }
 
@@ -347,12 +352,12 @@ footer a:hover {
     }
 
     .supercharge-examples {
-        flex-direction: row;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "image1 image2 image3"
+            "heading1 heading2 heading3"
+            "text1 text2 text3";
         gap: 0;
-
-        div {
-            width: 33.33%;
-        }
 
         p {
             width: 95%;
@@ -363,7 +368,42 @@ footer a:hover {
             margin-bottom: 1rem;
             margin-top: 2.8125rem;
         }
+    }
 
+    .supercharge-examples img:nth-of-type(1) {
+        grid-area: image1;
+    }
+
+    .supercharge-examples img:nth-of-type(2) {
+        grid-area: image2;
+    }
+
+    .supercharge-examples img:nth-of-type(3) {
+        grid-area: image3;
+    }
+
+    .supercharge-examples h3:nth-of-type(1) {
+        grid-area: heading1;
+    }
+
+    .supercharge-examples h3:nth-of-type(2) {
+        grid-area: heading2;
+    }
+
+    .supercharge-examples h3:nth-of-type(3) {
+        grid-area: heading3;
+    }
+
+    .supercharge-examples p:nth-of-type(1) {
+        grid-area: text1;
+    }
+
+    .supercharge-examples p:nth-of-type(2) {
+        grid-area: text2;
+    }
+
+    .supercharge-examples p:nth-of-type(3) {
+        grid-area: text3;
     }
 
     .logos {
