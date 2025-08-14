@@ -29,12 +29,16 @@
 }
 
 .attribution {
-    font-size: 0.6875rem;
-    text-align: center;
-    color: var(--gray-700);
+
     background-color: var(--gray-500-2);
     width: 100vw;
     padding: 1rem 0;
+}
+
+.attribution p {
+    font-size: 0.6875rem;
+    text-align: center;
+    color: var(--gray-700);
 }
 
 .attribution a {
@@ -70,7 +74,7 @@ h3 {
 p {
     color: var(--gray-500);
     font-weight: 400;
-    max-width: 39.6875rem;
+    max-width: 43rem;
     margin: auto;
 }
 
@@ -322,7 +326,7 @@ footer a:hover {
 
     h2 {
         font-size: 2.1rem;
-        width: 50%;
+        width: 70%;
         margin: 0 auto 1.5625rem;
     }
 
@@ -421,15 +425,15 @@ footer a:hover {
         grid-area: heading3;
     }
 
-    .supercharge-examples p:nth-of-type(1) {
+    .supercharge-examples p:nth-of-type(2) {
         grid-area: text1;
     }
 
-    .supercharge-examples p:nth-of-type(2) {
+    .supercharge-examples p:nth-of-type(3) {
         grid-area: text2;
     }
 
-    .supercharge-examples p:nth-of-type(3) {
+    .supercharge-examples p:nth-of-type(4) {
         grid-area: text3;
     }
 
