@@ -86,15 +86,17 @@ main {
     padding: 7.625rem 1.875rem 10.625rem;
 }
 
-section {
+section,
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.head {
-
+header {
+    text-align: center;
     margin-bottom: 2.1875rem;
+    padding: 7.625rem 1.875rem 0;
 
     img {
         width: 7.8125rem;
@@ -303,7 +305,7 @@ footer a:hover {
         padding: 7.625rem 0 10.625rem;
     }
 
-    .head {
+    header {
         img {
             margin-bottom: 4rem;
         }
